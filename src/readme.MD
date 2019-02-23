@@ -10,4 +10,21 @@ https://pl.wikipedia.org/wiki/Wie%C5%BCe_Hanoi
 
 4. Jeżeli stos z którego użytkownik chce zabrać krążek jest pusty, należy wypisać wiadomość `
 Wybrany stos jest pusty`.
-5. Jeżeli ruch, który chce wykonać użytkownik jest nielegalny należy wypisać wiadmość `Ruch Nielegalny!`
+
+5. Jeżeli ruch, który chce wykonać użytkownik jest nielegalny(jeżeli użytkownik próbuje przenieść większy krążek na mniejszy) należy wypisać wiadmość `Ruch Nielegalny!`
+
+6. Dodaj metodę, która po pobraniu od użytkownika dwóch liczb zabierze krążek(inta) z pierwszego stosu i przeniesie do drugiego stosu. Należy tutaj spełnić zalożenia gry patrz punkty 4. i 5.
+
+8. Aplikacja powinna działać w pętli, która będzie się wykonywała w nieskończoność. Każde wykonanie pętli to przyjęcie od użytkownika dwóch liczb i wykonanie ruchu (patrz punkt 6.) a następnie wypisanie stanu stosów po ruchu.
+
+7. Po każdym ruchu należy sprawdzić czy gra jest zakończona. Jeżeli tak, to należy wypisać użytkownikowi informacje: `Gratulacje Użytkowniku! Udało ci się rozwiązać łamigłówkę!` i przerwać pętlę.
+
+8. Dodaj możliwość, aby przed grą użytkownik podał nick. Po zakończeniu gry w wiadomości końcowej należy wyświetlić nick, który podał użytkownik.
+
+9. Dodaj do aplikacji licznik ruchów, który będzie liczył ile operacji potrzebował użytkownik na zakończenie gry. W wiadomości końcowej, powinna się również znaleźć informacja o ilości wykonanych ruchów.
+
+11. Dodaj możliwość zdefiniowania ilości krążków (intów), które będą brały udział w grze. Dopuszczalna ilość krążków to od 3 do 10.
+
+12. Po zakończeniu rozgrywki, aplikacja powinna zapytać użytkownika czy chce zapisać swój wynik do pliku.Jeżeli użytkownik odpisze twierdząco to do pliku powinna zostać dodana nazwa użytkownika i ilość ruchów, która była mu potrzebna do zakończenia gry.
+
+13.Przed rozpoczęciem gry, użytkownik powinien mieć możliwość zobaczenia tabeli wyników.
